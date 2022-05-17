@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Emlak Sepeti</string>
+    <string name="hesabim_var">Hesabim Var</string>
+    <string name="hesap_olustur">Hesap Olustur</string>
+    <string name="facebook_ile_giris_yap">Facebook ile Giris Yap</string>
+    <string name="icon">icon</string>
+    <string name="gMail">E-Posta Adresini Gir</string>
+    <string name="pass">Sifreni Gir</string>
+    <string name="giris">Giris</string>
+    <string name="kullanici_adi_gir">Kullanici Adi Gir</string>
+    <string name="tm">Tamam</string>
+    <string name="lan_ara">İlan Ara</string>
+    <string name="lan_ekle">İlan Ekle</string>
+    <string name="kredi_hesapla">Kredi Hesapla</string>
+    <string name="profil">Profil</string>
+    <string name="baba">Serkan Civak</string>
+    <string name="profil_detaylar">Profil Detayları</string>
+    <string name="favorilerim">Favorilerim</string>
+    <string name="ayarlar">Ayarlar</string>
+    <string name="yayindakilanlarim">Yayındaki İlanlarım</string>
+    <string name="ayarlarim">Ayarlarim</string>
+    <string name="cikis">Cikis</string>
+    <string name="kredi_tutarini_giriniz">Kredi Tutarini Giriniz</string>
+    <string name="vade_giriniz">Vade Giriniz</string>
+    <string name="anasayfam">Anasayfa</string>
+    <string name="aciklama_ekleyiniz">Aciklama Ekleyiniz</string>
+    <string name="gonder">Gonder</string>
+    <string name="m2">M2</string>
+    <string name="kat_sayisi">Kat Sayisi</string>
+    <string name="banyo_sayisi">Banyo Sayisi</string>
+    <string name="aramaya_basla">Aramaya Basla</string>
+    <string name="ara">Ara</string>
+    <string-array name="tip">
+        <item>Tip</item>
+        <item>Daire</item>
+        <item>Villa</item>
+        <item>Müstakil Ev</item>
+        <item>Bina</item>
+        <item>Residance</item>
+        <item>Yalı</item>
+        <item>Köşk</item>
+        <item>Dağ Evi</item>
+        <item>Loft Daire</item>
+    </string-array>
+    <string-array name="kredi">
+        <item>Krediye Uygunluk</item>
+        <item>Uygun</item>
+        <item>Değil</item>
+    </string-array>
+    <string-array name="esya">
+        <item>Esya Durumu</item>
+        <item>Esyali</item>
+        <item>Boş</item>
+    </string-array>
+    <string-array name="yapi">
+        <item>Yapinin Durumu</item>
+        <item>Sıfır</item>
+        <item>İkinci El</item>
+        <item>Yapım Aşamasında</item>
+    </string-array>
+    <string-array name="kullanim">
+        <item>Kullanim Durumu</item>
+        <item>Kullanıma Hazır</item>
+        <item>İnşaat Halinde</item>
+    </string-array>
+    <string-array name="konut">
+        <item>Konut Sekli</item>
+        <item>Arsa</item>
+        <item>İş Yeri</item>
+        <item>Devremülk</item>
+        <item>İşletme</item>
+    </string-array>
+    <string-array name="cephe">
+        <item>Cephe</item>
+        <item>Kuzey</item>
+        <item>Güney</item>
+        <item>Doğu</item>
+        <item>Batı</item>
+    </string-array>
+    <string-array name="isinma">
+        <item>Isınma Tipi</item>
+        <item>Merkezi Sistem</item>
+        <item>Kombi</item>
+        <item>Jeotermal Isıtma</item>
+        <item>Kat Kaloriferi</item>
+    </string-array>
+
+</resources>

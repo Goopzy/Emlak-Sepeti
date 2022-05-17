@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrediActivity">
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/homeicon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp">
+    </ImageView>
+
+    <LinearLayout
+        android:id="@+id/lyt1"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_below="@+id/profile"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:orientation="horizontal">>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Ev Kredini Hesapla"
+            android:textColor="@color/black2"
+            android:textSize="32dp"
+            android:textStyle="italic"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lyt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="5dp"
+
+        android:layout_below="@+id/lyt1">
+
+        <EditText
+            android:id="@+id/paraGir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="@string/kredi_tutarini_giriniz" />
+        <EditText
+            android:id="@+id/vadeGir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="@string/vade_giriniz" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hesaplaBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@+id/lyt2"
+        android:gravity="center">
+        <Button
+            android:id="@+id/hesap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hesapla"
+            app:backgroundTint="#FD0303">
+        </Button>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@+id/hesaplaBtn"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/sonuc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textSize="16dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="80dp"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+
+</RelativeLayout>
